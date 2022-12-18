@@ -14,9 +14,16 @@ Tutorial for Runnning this syntax
 - command use NPM run wdio '@interaction' for running assertion dropable on interaction
 
 Tutorial for running allure reports
-- install allure reports ( command use npm install wdio-allure-reporter --save-dev )
-- install allure command ( command use npm install allure-commandline --save-dev) 
+- install allure reports 
+```
+npm install wdio-allure-reporter --save-dev
+``` 
+- install allure command
+``` 
+npm install allure-commandline --save-dev
+``` 
 - added this code on wdio configuration  
+``` 
 reporters: ['spec', ['allure', {
         outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
@@ -24,6 +31,7 @@ reporters: ['spec', ['allure', {
         disableMochaHooks: true,
         addConsoleLogs: true
     }]],
+``` 
 - running wdio first (command use NPM run wdio )
 - running allure reports (command use NPM run allure-report)
 - after this npm run allure-report
