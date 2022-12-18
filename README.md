@@ -5,13 +5,27 @@ Tutorial for installation this automation test
 - Ekstrak Files (if from ZIP files)
 - Open Your Visual Code
 - Open Folder ( select this folder )
-- Npm Init
-- Npm install
-
-Tutorial for Runnning this syntax
-- command use NPM run wdio for running all testing
-- command use NPM run wdio '@element' for running assertion buttons on element
-- command use NPM run wdio '@interaction' for running assertion dropable on interaction
+- Open Terminal and command
+``` 
+Npm Init
+``` 
+After this
+``` 
+Npm install
+``` 
+for Runnning 
+- All Testing
+``` 
+npm run wdio 
+```
+for running assertion buttons on element
+``` 
+npm run wdio '@element' 
+``` 
+for running assertion dropable on interaction
+```
+npm run wdio '@interaction' 
+``` 
 
 Tutorial for running allure reports
 - install allure reports 
@@ -32,7 +46,12 @@ reporters: ['spec', ['allure', {
         addConsoleLogs: true
     }]],
 ``` 
-- running wdio first (command use NPM run wdio )
-- running allure reports (command use NPM run allure-report)
-- after this npm run allure-report
-- for teminate ( ctrl + c and select Y)
+for running 
+``` 
+npm run wdio 
+```
+and
+``` 
+npm run allure-report
+```
+for teminate ( ctrl + c and select Y)
