@@ -1,6 +1,6 @@
 # Api-automation-web
 
-##Tutorial for installation this automation test
+## Installation Guide
 - Clone or Download ZIP files
 - Ekstrak Files (if from ZIP files)
 - Open Your Visual Code
@@ -18,11 +18,11 @@ Npm install
 ``` 
 npm run wdio 
 ```
-for running assertion buttons on element
+-for running assertion buttons on element
 ``` 
 npm run wdio '@element' 
 ``` 
-for running assertion dropable on interaction
+-for running assertion dropable on interaction
 ```
 npm run wdio '@interaction' 
 ``` 
