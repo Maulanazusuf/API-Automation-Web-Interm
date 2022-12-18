@@ -1,6 +1,6 @@
 # Api-automation-web
 
-Tutorial for installation this automation test
+##Tutorial for installation this automation test
 - Clone or Download ZIP files
 - Ekstrak Files (if from ZIP files)
 - Open Your Visual Code
@@ -13,8 +13,8 @@ After this
 ``` 
 Npm install
 ``` 
-for Runnning 
-- All Testing
+
+## Running script 
 ``` 
 npm run wdio 
 ```
@@ -27,7 +27,7 @@ for running assertion dropable on interaction
 npm run wdio '@interaction' 
 ``` 
 
-Tutorial for running allure reports
+## running allure reports
 - install allure reports 
 ```
 npm install wdio-allure-reporter --save-dev
@@ -36,7 +36,7 @@ npm install wdio-allure-reporter --save-dev
 ``` 
 npm install allure-commandline --save-dev
 ``` 
-- added this code on wdio configuration  
+## added this code on wdio configuration  
 ``` 
 reporters: ['spec', ['allure', {
         outputDir: 'allure-results',
@@ -46,7 +46,7 @@ reporters: ['spec', ['allure', {
         addConsoleLogs: true
     }]],
 ``` 
-for running 
+## Running Allure results 
 ``` 
 npm run wdio 
 ```
